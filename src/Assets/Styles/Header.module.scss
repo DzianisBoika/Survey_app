@@ -1,0 +1,23 @@
+Header {
+    position: sticky;
+    padding-top: 0px;
+    z-index: 1;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: stretch;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.avatar {
+    width: 60px;
+}
