@@ -5,6 +5,7 @@ import { Breadcrumb, Layout, Menu, theme } from 'antd';
 import { MenuProps } from 'antd';
 import TableApp from '../Table/Table';
 
+
 const { Content, Footer, Sider } = Layout;
 
 const items2: MenuProps['items'] = [UserOutlined, LaptopOutlined, NotificationOutlined].map(
@@ -52,6 +53,7 @@ const ContentApp = () => {
                             items={items2}
                         />
                     </Sider>
+
 
                     <Content className={stylesheet.content}>                       
                         <TableApp/>
