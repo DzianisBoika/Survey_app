@@ -7,7 +7,6 @@ Header {
     display: flex;
     align-items: center;
     flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-between;
     align-content: stretch;
 
@@ -15,7 +14,10 @@ Header {
 
 .container {
     display: flex;
-    align-items: left;
+    align-items: center;
     flex-direction: row;
-    flex-wrap: nowrap;
+}
+
+.avatar {
+    width: 60px;
 }
