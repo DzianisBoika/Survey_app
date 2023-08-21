@@ -2,6 +2,9 @@ import React from 'react';
 import stylesheet from '../../Assets/Styles/Content.module.scss';
 import { LaptopOutlined, NotificationOutlined, UserOutlined } from '@ant-design/icons';
 import { Breadcrumb, Layout, Menu, theme } from 'antd';
+import { MenuProps } from 'antd';
+import TableApp from '../Table/Table';
+
 
 const { Content, Footer, Sider } = Layout;
 
@@ -52,8 +55,8 @@ const ContentApp = () => {
                     </Sider>
 
 
-                    <Content className={stylesheet.content}>
-                        Контент
+                    <Content className={stylesheet.content}>                       
+                        <TableApp/>
                     </Content>
 
                 </Layout>
