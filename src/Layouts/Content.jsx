@@ -6,8 +6,6 @@ import stylesheet from '../Assets/Styles/Content.module.scss';
 import TableApp from './Table';
 import SurveyForm from './SurveyConstructor';
 
-
-
 const { Content, Footer, Sider } = Layout;
 
 const items2 = [UserOutlined, LaptopOutlined, NotificationOutlined].map(
