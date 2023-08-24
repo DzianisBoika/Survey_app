@@ -4,7 +4,7 @@ import { Breadcrumb, Layout, Menu, theme } from 'antd';
 import { HomeOutlined } from '@ant-design/icons';
 import stylesheet from '../Assets/Styles/Content.module.scss';
 import TableApp from './Table';
-import SurveyForm from './SurveyConstructor';
+import SurveyForm from './SurveyForm';
 
 const { Content, Footer, Sider } = Layout;
 
