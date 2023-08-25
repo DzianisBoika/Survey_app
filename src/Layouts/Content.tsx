@@ -3,7 +3,7 @@ import { LaptopOutlined, NotificationOutlined, UserOutlined } from '@ant-design/
 import { Breadcrumb, Layout, Menu, theme } from 'antd';
 import { HomeOutlined } from '@ant-design/icons';
 import stylesheet from '../Assets/Styles/Content.module.scss';
-import TableApp from './Table.tsx';
+/* import TableApp from './Table.tsx'; */ 
 import SurveyForm from './SurveyForm.tsx';
 
 const { Content, Footer, Sider } = Layout;
