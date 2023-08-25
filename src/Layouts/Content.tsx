@@ -1,5 +1,5 @@
 import React from 'react';
-import { LaptopOutlined, NotificationOutlined, UserOutlined } from '@ant-design/icons';
+import { LaptopOutlined, UserOutlined } from '@ant-design/icons';
 import { Breadcrumb, Layout, Menu, theme } from 'antd';
 import { HomeOutlined } from '@ant-design/icons';
 import stylesheet from '../Assets/Styles/Content.module.scss';
@@ -8,20 +8,21 @@ import SurveyForm from './SurveyForm.tsx';
 
 const { Content, Footer, Sider } = Layout;
 
-const items2 = [UserOutlined, LaptopOutlined, NotificationOutlined].map(
+// сайдер
+const items2 = [LaptopOutlined].map(
   (icon, index) => {
     const key = String(index + 1);
 
     return {
       key: `sub${key}`,
       icon: React.createElement(icon),
-      label: `Сайдер ${key}`,
+      label: `Опросы`,
 
-      children: new Array(4).fill(null).map((_, j) => {
+      children: new Array(1).fill(null).map((_, j) => {
         const subKey = index * 4 + j + 1;
         return {
           key: subKey,
-          label: `Опция ${subKey}`,
+          label: `Таблица ${subKey}`,
         };
       }),
     };
