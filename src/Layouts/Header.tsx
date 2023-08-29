@@ -1,7 +1,7 @@
 import React from 'react';
 import stylesheet from '../Assets/Styles/Header.module.scss';
 import { Layout } from 'antd';
-import { AntDesignOutlined, LogoutOutlined } from '@ant-design/icons';
+import { LogoutOutlined } from '@ant-design/icons';
 import Logo from '../Assets/img/logo.svg';
 import { Avatar } from 'antd';
 const { Header } = Layout;
