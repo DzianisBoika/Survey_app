@@ -14,7 +14,7 @@ const HeaderApp: React.FC = () => {
             <div className={stylesheet.container}>
                 <img src={Logo} alt="Logo"  height={40} />
             </div>
-            <LogoutOutlined style={{ fontSize: '40px', color: 'white' }} />
+            <LogoutOutlined style={{ fontSize: '30px', color: 'white' }} />
         </Header>
     );
 };
