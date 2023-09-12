@@ -16,13 +16,13 @@ const items2 = [LaptopOutlined].map(
     return {
       key: `sub${key}`,
       icon: React.createElement(icon),
-      label: `Опросы`,
+      label: `Ваши опросы`,
 
-      children: new Array(1).fill(null).map((_, j) => {
+      children: new Array(4).fill(null).map((_, j) => {
         const subKey = index * 4 + j + 1;
         return {
           key: subKey,
-          label: `Таблица ${subKey}`,
+          label: `Таблица опроса ${subKey}`,
         };
       }),
     };
@@ -45,7 +45,7 @@ const ContentApp: React.FC = () => {
             <UserOutlined />
             <span>Application List</span>
           </Breadcrumb.Item>
-          <Breadcrumb.Item>Application</Breadcrumb.Item>
+          <Breadcrumb.Item>Новый опрос</Breadcrumb.Item>
         </Breadcrumb>
 
         <Layout className={stylesheet.container} style={{ background: colorBgContainer }}>
