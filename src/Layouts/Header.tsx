@@ -2,7 +2,7 @@ import React from 'react';
 import stylesheet from '../Assets/Styles/Header.module.scss';
 import { Layout } from 'antd';
 import { LogoutOutlined } from '@ant-design/icons';
-import Logo from '../Assets/img/logo.svg';
+import Logo from '../logo.svg';
 const { Header } = Layout;
 
 
