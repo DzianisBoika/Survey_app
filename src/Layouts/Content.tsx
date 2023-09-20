@@ -11,7 +11,6 @@ const ContentApp: React.FC = () => {
   return (
     
     <div className={stylesheet.container}>
-      
       <Content className={stylesheet.content}>
         <Routes>
           <Route path='/' element={<TableApp />} /> 
@@ -19,12 +18,10 @@ const ContentApp: React.FC = () => {
         <Routes>
           <Route path='/' element={<Button type="primary" href='/survey' className={stylesheet.button} >Создать новый опрос</Button>} />
         </Routes>
-        
         <Routes>
-          <Route path='/survey' element={<SurveyForm/>} />
+          <Route path='/survey' element={<SurveyForm />} />
         </Routes>
       </Content>
-      
       </div>
     
   );

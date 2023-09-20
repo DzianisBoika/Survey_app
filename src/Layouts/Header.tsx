@@ -12,7 +12,7 @@ const HeaderApp: React.FC = () => {
     return (
         <Header className={stylesheet.header}>
             <div className={stylesheet.container}>
-                <img src={Logo} alt="Logo"  height={40} />
+                <a href='/'><img src={Logo} alt="Logo"  height={40} /></a>
             </div>
             <LogoutOutlined style={{ fontSize: '30px', color: 'white' }} />
         </Header>
