@@ -9,11 +9,12 @@ import stylesheet from './Assets/Styles/App.module.scss';
 const App: React.FC = () => {
   return (
     <>
-      <HeaderApp />
-      <div className={stylesheet.siderContent}>
+        <HeaderApp />
+        <div className={stylesheet.siderContent}>
         <SiderApp />
-        <ContentApp  />
-      </div>
+        <ContentApp />
+        </div>
+      
     </>
   );
 };
